@@ -30,6 +30,10 @@ PRODUCT_PACKAGES += \
     OmniJaws \
     WeatherIcons
 
+# Updater
+PRODUCT_PACKAGES += \
+    Updater
+
 # SystemUI plugins
 PRODUCT_PACKAGES += \
     QuickAccessWallet

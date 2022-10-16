@@ -34,9 +34,6 @@ ifeq ($(ARROW_OFFICIAL), true)
       IS_OFFICIAL=true
       ARROW_BUILD_TYPE := OFFICIAL
 
-PRODUCT_PACKAGES += \
-    Updater
-
     endif
     ifneq ($(IS_OFFICIAL), true)
        ARROW_BUILD_TYPE := UNOFFICIAL
